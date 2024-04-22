@@ -12,7 +12,7 @@ park_model = pickle.load(open("svm_parks.pkl","rb"));
 stroke_model = pickle.load(open("Brain_Stroke.pkl","rb"))
 stroke_model2 = pickle.load(open("Brain_Stroke_NB.pkl","rb"))
 diab_model2 = pickle.load(open("diabetes_svm2.pkl","rb"));
-diab_model3 = diab_model2 = pickle.load(open("diabetes_lr.pkl","rb"));
+diab_model3 = diab_model2 = pickle.load(open("Diabetes_lr.pkl","rb"));
 
 #Setting page title and favicon
 st.set_page_config(page_title="Disease Prediction System", page_icon=":hospital:")
